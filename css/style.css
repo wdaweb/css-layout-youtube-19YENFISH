@@ -1,0 +1,220 @@
+* {
+  /* outline:1px solid #3a0606; */
+  margin: 0;
+}
+
+#header {
+  width: 100%;
+  height: 60px;
+  /* background: rgb(134, 67, 67); */
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+#header #voice{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 72%;
+  top: 20px;
+  border: none;
+  border-radius: 100%;
+}
+#header #voice:hover{
+  background:#c7c7c7 ;
+}
+#header #icon{
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+
+#header #youtube{
+  width: 100px;
+  height: 60px;
+  position: relative;
+  bottom: 20px;
+  left: 80px;
+}
+
+#header #text{
+  width: 40%;
+  height: 40px;
+  /* background: red; */
+  margin: auto;
+  position: relative;
+  bottom: 60px;
+  
+}
+#header #text-right {
+  width: 90%;
+  top: 0;
+  bottom: 0;
+  right: 10;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  font-size: 24px;
+  border-radius:  50px 0 0 50px  ;
+  border:1px solid #c7c7c7 ;
+} 
+#header #text-left {
+  width: 10%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left:90;
+  margin: auto;
+  position: absolute;
+  border-radius: 0 50px 50px 0  ;
+  border:1px solid #c7c7c7 ;
+  float: left;
+} 
+#header #text-left:hover{
+  background: #969696;
+}
+#header #log{
+  width: 90px;
+  height: 50px;
+  margin-left: 95%;
+  border-radius: 30px;
+  background: white;
+  bottom: 115px;
+  position: relative;
+  color: rgb(5, 83, 134);
+  border: 1px solid #e0e0e0;
+}
+#header #log i{
+  margin-right: 10px;
+}
+#header #log:hover{
+  background: rgb(216, 236, 255)
+}
+#sidebar {
+  /* view port height; */
+  height: calc(100vh - 60px);
+  width: 15%;
+  /* background: white; */
+  /* background: lightgoldenrodyellow; */
+  position: fixed;
+  left: 0;
+  top: 60px;
+  overflow: auto;
+}
+#sidebar li{
+  width: 80%;
+  height: 50px;
+  /* line-height: 40px; */
+  color: black;
+  font-size: 16px;
+  text-align: left;
+  margin: auto;
+  padding: 5px;
+}
+#sidebar li:hover{
+  background: rgb(231, 231, 231);
+  border-radius: 10px;
+  
+}
+#sidebar li i{
+  padding: 10px;
+} 
+#sidebar p{
+width: 80%;
+height: 50px;
+margin: auto;
+padding: 20px;
+}
+#sidebar #log{
+  width: 90px;
+  height: 50px;
+  margin-left: 20px;
+  position: relative;
+  border-radius: 30px;
+  background: white;
+  color: rgb(5, 83, 134);
+  bottom: 10px;
+  border: 1px solid #e0e0e0;
+}
+#sidebar #log i{
+  margin-right: 10px;
+}
+#sidebar #log:hover{
+  background: rgb(216, 236, 255)
+}
+
+#btn {
+  width: calc(100% - 15%);
+  margin-left: 15%;
+  float: right;
+  top: 60px;
+  position: fixed;
+  padding: 5px;
+  background: rgb(255, 255, 255);
+  z-index: 2;
+}
+  #bt{
+  /* background: yellow; */
+  margin-left: 20px;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  padding: 10px;
+  
+}
+  #bt li{
+  display: inline-block;
+  background: #dddddd;
+  padding: 5px;
+  margin-left: 10px;
+  line-height: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  /* border: none; */
+  text-align: center;
+  box-sizing: border-box;
+}
+#bt li:hover{
+  background: #000000;
+  color: white;
+}
+#contents{
+  width: calc(100% - 15%);
+  margin-left: 20%;
+  float: right;
+  /* background: blue; */
+}
+#contents #content{
+  display: inline-block;
+  margin: 10px;
+  width: 300px;position: relative;
+  top: 150px;
+}
+#contents #content .img{
+  width: 300px;
+  margin: auto;
+  border-radius: 15px;
+}
+#contents #content .img-circle{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+#contents #content h1{
+  width: 250px;
+  font-size: 14px;
+  bottom: 52px;
+  left: 50px;
+  color: black;
+  position: relative;
+}
+#contents #content p{
+  width: 250px;
+  left: 50px;
+  bottom: 50px;
+  font-size: 14px;
+  color: #aaaaaa;
+  position: relative;
+}
